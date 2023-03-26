@@ -1,0 +1,197 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Kalam", cursive;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-black";
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Kalam", cursive;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #4e6e81;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font: size 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat-light";
+}
+
+/*Download Buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 90%;
+  padding-top: 100px;
+  transform: rotate(15deg);
+  left: 20%;
+  position: absolute;
+}
+
+.p-track {
+  font-size: larger;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #4e6e81;
+}
+
+.dua {
+  padding: 7% 15% 0% 15%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.dua-p {
+  font-family: "Montserrat-black";
+  font-size: 1.3rem;
+  padding: 0% 15% 0% 15%;
+  text-align: center;
+  color: white;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #4e6e81;
+  color: white;
+}
+
+.testimonial-text {
+  color: white;
+  font-size: medium;
+  font-size: 1.3rem;
+  padding-bottom: 7%;
+}
+
+.icon-2 {
+  margin-bottom: 1rem;
+}
+
+.icon-2:hover {
+  color: black;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.awqat-image {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dua-section {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.duas-text {
+  color: black;
+  font-size: medium;
+  font-size: 1.3rem;
+  padding-bottom: 7%;
+}
+
+.btn {
+  border: 1px solid black;
+}
+
+.icon-3 {
+  margin-bottom: 1rem;
+}
+
+.icon-3:hover {
+  color: #4e6e81;
+}
+
+.todo {
+  background-color: white;
+}
+
+@media (max-width: 1020px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/*CTA*/
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat-black";
+}
+
+/*footer*/
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
